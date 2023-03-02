@@ -64,7 +64,7 @@ public class Person
         persons.Add(obj2);
         persons.Add(obj3);
         
-        PersonPersistence persistence = new PersonPersistence();
+        PersonPersistance persistence = new PersonPersistance();
         persistence.StoreObjects(persons);
     }
 }
